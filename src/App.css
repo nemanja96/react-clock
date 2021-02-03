@@ -1,0 +1,45 @@
+body{
+  background: #ccc;
+}
+
+.clock{
+  width: 600px;
+  height: 170px;
+  background: #000;
+  color: #fff;
+  margin: 200px auto;
+}
+
+.clock .item{
+  display: inline-block;
+  padding-top: 40px;
+  width: 150px;
+  height: 170px;
+  text-align: center;
+}
+
+.clock .item:nth-child(1){
+  background: #3C1518;
+}
+.clock .item:nth-child(2){
+  background: #69140E;
+}
+.clock .item:nth-child(3){
+  background: #A44200;
+}
+.clock .item:nth-child(4){
+  background: #D58936;
+}
+
+.clock .item h1{
+  font-size: 3.5em;
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+}
+
+.clock .item span{
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: #ccc;
+}
